@@ -2,6 +2,6 @@
   <!-- These are here just to show the structure of the list items -->
   <!-- List items should get the class `editing` when editing and `completed` when marked as completed -->
 
-  <app-todo-item [todo]="todo" *ngFor="let todo of todos"></app-todo-item>
+  <app-todo-item [todo]="todo" *ngFor="let todo of todos | filter:filter"></app-todo-item>
 
 </ul>
