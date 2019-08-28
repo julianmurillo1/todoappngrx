@@ -4,8 +4,7 @@ import * as filterActions from '../../filter/filter.actions'
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app.reducers';
 import { Todo } from '../model/todo';
-import { filter } from 'minimatch';
-import { ClearCompleted, ClearCompletedAction } from '../todo.actions';
+ import {  ClearCompletedAction } from '../todo.actions';
 
 @Component({
   selector: 'app-todo-footer',

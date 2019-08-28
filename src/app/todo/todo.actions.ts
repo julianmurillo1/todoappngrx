@@ -47,4 +47,4 @@ export class ClearCompletedAction implements Action{
     readonly type = CLEAR_COMPLETED
 }
 
-export type Actions =  AddTodoAction | ToggleAction | EditAction | DeleteTodo | ToogleAllAction |ClearCompleted
+export type Actions =  AddTodoAction | ToggleAction | EditAction | DeleteTodo | ToogleAllAction |ClearCompletedAction
